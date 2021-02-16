@@ -19,9 +19,10 @@ Is another way of organization of the neural network. Here, the neurons are in a
 ## The project
 In this project, i use the [p5 library](https://p5js.org/) to run the neural network on browser. To run the neural network, just open the `index.html` file inside `p5/lib/neural-network`.
 
-Basically, we have some matrix and weights, and all the data flows like input->hidden->output.
+Basically, we have some matrix and weights, and all the data flows like input->hidden->output in the feedforward and output->hidden->input in the backpropagation, where the weights are adjusted.
 
 ## References
 I made this project watching the [Computeiro videos](https://www.youtube.com/playlist?list=PLfvgl3pGWxGnPkXDB5hS5bAryMGZ0TU5k).
+Some links about backpropagation algorithm are [here](http://deeplearningbook.com.br/algoritmo-backpropagation-parte1-grafos-computacionais-e-chain-rule/) and [here](https://medium.com/ensina-ai/redes-neurais-perceptron-multicamadas-e-o-algoritmo-backpropagation-eaf89778f5b8).
 
 ## Leonardo Zanotti
